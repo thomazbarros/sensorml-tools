@@ -1,0 +1,1 @@
+java -classpath .\plugins\org.eclipse.help.base_3.3.101.M20080728_34x.jar org.eclipse.help.standalone.Help -command displayHelp
