@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SensorMLEditor Plug-in
+Bundle-SymbolicName: org.vast.SensorMLEditor;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.vast.sensormleditor.apps.SensorMLEditorPlugin
+Bundle-Vendor: UAH VAST
+Require-Bundle: org.eclipse.core.resources;bundle-version="3.4.1",
+ org.eclipse.ui;bundle-version="3.4.1",
+ org.eclipse.ui.workbench.texteditor;bundle-version="3.4.1",
+ org.eclipse.ui.views.properties.tabbed,
+ org.apache.xerces;bundle-version="2.9.0",
+ org.eclipse.core.runtime;bundle-version="3.4.0",
+ org.vast.common;bundle-version="3.0.1",
+ org.eclipse.ui.ide;bundle-version="3.4.1",
+ org.eclipse.ui.navigator;bundle-version="3.3.101",
+ org.eclipse.ui.navigator.resources;bundle-version="3.3.101",
+ org.eclipse.ui.editors;bundle-version="3.4.0",
+ ResourceCustomFilter;bundle-version="1.2.0",
+ org.eclipse.core.databinding;bundle-version="1.1.1",
+ org.eclipse.core.databinding.beans;bundle-version="1.1.1",
+ org.eclipse.jface.databinding;bundle-version="1.2.1"
+Bundle-ClassPath: classes/
+Bundle-ActivationPolicy: lazy
