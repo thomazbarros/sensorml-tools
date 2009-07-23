@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Main Topic</title>
+</head>
+
+<body>
+<span style="font-family: Verdana; font-size: 23.52pt">RelaxNG</span>
+<p><span style="font-size:9.96pt;font-family:Arial;color:black;language: en-US">We recognize the need to be able to restrict the  very general SensorML framework schema in order to define profiles in SensorML.  This will allow one to describe profiles for particular sensor and process  types, as well as allow one to define metadata required by particular  communities. There are various technologies available for defining the rules  for validating an XML document, including DTD, XML Schema, Schematron, and  RelaxNG. The SensorML schema in defined in XML Schema. Unfortunately,&nbsp; XML Schema is not a very clean, robust, nor  flexible technology for fine grained restriction of schema. We have instead  decided to use <a href="http://relaxng.org">Relax NG</a> for fine grained restriction of SensorML and creation of  profiles. <a href="http://www.relaxng.org">Relax NG</a> is very well suited for the soft-typing approach used within  SensorML and the SWE Common data types. </span></p>
+<p><span style="font-family: Arial; font-size: 9.96pt; color: black">The Relax NG schema wraps the SensorML schema with tags that provide directives on what is allowable for the profile. Some of the tags include oneOrMore, zeroOrMore, optional, choice, among others. The insertion of these tags into the SensorML instance does not affect the validity of the SensorML encodings. However, the introduction of SensorML schema wrapped in a Relax NG schema creates the need to keep two files for each instance. The file that is actively edited has the .rng extension and the resulting SensorML instance has (as always) the .xml extension. When the user saves a SensorML instance, the *.rng file is saved with both Relax NG tags and SensorML schema tags. The *.rng version of the SensorML instance is converted to the *.xml version that contains a valid SensorML document without any reference to Relax NG tags. One could liken this pairing to that of java source and java class. The editing takes place in the java source (or Relax NG) and the executable (SensorML) is the java class. </span></p>
+<p><span style="font-family: Arial; font-size: 9.96pt; color: black">Future enhancements to this tool will allow the user to edit the Relax NG tags as well as the SensorML thereby creating a profile for a specific sensor description.</span></p>
+<p><span style="font-size:9.96pt;font-family:Arial;color:black;language: en-US"><strong><br>
+</strong></span></p>
+</body>
+</html>
