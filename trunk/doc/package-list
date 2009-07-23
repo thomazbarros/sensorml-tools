@@ -1,0 +1,14 @@
+org.vast.sensormleditor.actions
+org.vast.sensormleditor.apps
+org.vast.sensormleditor.commands
+org.vast.sensormleditor.config
+org.vast.sensormleditor.editors
+org.vast.sensormleditor.outlineview
+org.vast.sensormleditor.properties
+org.vast.sensormleditor.properties.descriptors
+org.vast.sensormleditor.properties.labelproviders
+org.vast.sensormleditor.properties.sections
+org.vast.sensormleditor.properties.tabfilters
+org.vast.sensormleditor.relaxNG
+org.vast.sensormleditor.util
+org.vast.sensormleditor.views
