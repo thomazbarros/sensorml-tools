@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Getting Started" link_to="toc.xml#gettingstarted">
+   <topic href="html/gettingstarted/Installation.html" label="Installation">
+   </topic>
+   <topic href="html/gettingstarted/Workbench.html" label="The Workbench">
+   </topic>
+   <topic label="A Basic Tutorial">
+      <topic href="html/gettingstarted/CreateProject.html" label="Create a Project">
+      </topic>
+      <topic href="html/gettingstarted/CreateSensorMLInstance.html" label="Create a SensorML Instance">
+      </topic>
+      <topic href="html/gettingstarted/Editors and Views.html" label="Editors and Views">
+      </topic>
+      <topic href="html/gettingstarted/Davis Weather Station.html" label="Davis Weather Station">
+         <topic href="html/gettingstarted/System.html" label="System">
+         </topic>
+         <topic href="html/gettingstarted/Keywords.html" label="Keywords">
+         </topic>
+         <topic href="html/gettingstarted/Identifiers.html" label="Identifiers">
+         </topic>
+         <topic href="html/gettingstarted/Classifiers.html" label="Classifiers">
+         </topic>
+         <topic href="html/gettingstarted/Components.html" label="Components">
+         </topic>
+      </topic>
+   </topic>
+   <topic href="html/gettingstarted/SampleProjects.html" label="Sample Projects">
+      <topic href="html/gettingstarted/CBRNE.html" label="CBRNE">
+      </topic>
+      <topic href="html/gettingstarted/Marine Sensors.html" label="Marine Sensors">
+      </topic>
+   </topic> 
+</toc>
